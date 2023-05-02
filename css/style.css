@@ -1,0 +1,212 @@
+/*===============Propiedades Globales================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/*===================MENU==========================*/
+
+ #menu a{
+     font-size: 18px !important;
+     font-weight: 600;
+    
+ }
+
+ #menu a{
+     color:#3f3f3f;
+     
+ }
+
+
+
+#menu a:hover{
+    color: #9cadce;
+}
+
+ #menu{
+    background: #ffe5ec;
+ }
+
+
+
+
+/*===================SECCION RECETAS==========================*/
+
+a:visited{
+    color: #ffc09f;
+}
+
+a{
+    color:#ff686b;
+}
+
+a:hover{
+    color: rgb(224, 43, 155);
+}
+
+
+
+.seccionReceta{
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.ingredientes{
+    background:  #fff1e6 ;
+}
+
+/*=========================BODY================================*/
+
+
+body{
+    background: url(/img/fondo.jpg);
+}
+
+
+.destacada{
+    color: #ff686b  ;
+}
+
+.bodyRecetas{
+    background: url(/img/fondo4.jpg);
+}
+
+.imgLogo{
+    max-width: 80px;
+    max-height: 80px;
+}
+
+
+
+.card{
+    border-color: #ff686b;
+}
+
+.margenT{
+    margin-top: 35px;
+}
+
+/*=========================CONTACTOS BACKGROUND================================*/
+
+#bg-contactos{
+    position:relative;
+    top: -130px;
+} 
+
+ #seccion-contacto{
+    background-image: url(/img/fondo3.jpg);
+    min-height:500px;
+    position:relative;
+}
+
+/*=========================CONTACTOS FORMULARIO================================*/
+
+#contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+    
+}
+
+#titulo-formulario {
+    color: #ff8fab;
+}
+.btn{
+    background: #ffcaaf;
+}
+
+
+
+/*=========================FOOTER================================*/
+
+footer {
+    background-image: url(/img/fondo1.jpg);
+    min-height: 100px;;
+}
+footer p{
+   
+    text-align:center;
+    text-decoration: solid;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+  
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width:1200px){
+    #intro {
+        width:90% !important;
+        margin:auto;
+    }
+  
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+   .wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+ 
+}
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+
+@media (max-width:768px) {
+
+    #intro{
+        width:90% !important;
+        margin:auto;
+    }
+
+    
+   
+    .wrapper-local {
+        width:90%;
+        margin:auto;
+        padding-top:50px;    
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+ 
+    #bg-contactos{
+        top: -120px;
+    }
+
+
+}
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+    #recetas-fila-2 {
+        width:100% !important;
+    }
+    #recetas-fila-1 {
+        width:100% !important;
+    }
+
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
+
+
